@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Muneeb Zia</h1>
+          <h2 class="text-white">A passionate web developer</h2>
+        </div>
+        <div class="col-4">
+          <img id = "my-pic"
+            src="images/pic.jpg"
+            
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        
+        <div class="text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            I'm Muneeb Zia from Rawalpindi, Pakistan. I did my Bachelors in Aerospace Engineering 
+            from Institute of Space Technology, Islamabad, Pakistan followed by Post Graduate Diploma 
+            in Computer Science. I am experienced, motivated and passionate web developer. I am adept 
+            in coding and scripting languages including Python, C++, and JavaScript. I have
+             hands-on experience in web development and data analysis. Moreover, I have a 4 years of 
+             experience in strategic management, project planning, budgeting, and execution. Besides,
+              I love playing video games, cricket and Football.
+          </p>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills-->
+    <div id = "skills">
+      <div >
+        <h2 style = "color: #f5ba09">Skills</h2>
+        <p id = "programming">PROGRAMMING : <span style = "color: white; ">Python, C++, HTML, CSS, JavaScript, Matlab, SQL</span></p>
+        <p id = "programming">Tools : <span style = "color: white;">React, jQuery, Bootstrap, Pandas, Numpy, Scikit-Learn, Django, Git, Scrapy</span></p>
+        <p id = "programming">Software : <span style = "color: white; ">Jupeter Notebook, Spyder, Visual Studio Code, Tableau, MS Office, Postgresql, Github</span></p>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    
+
+    
+
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/expense.jpg"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Expense Tracker</h5>
+              <p class="card-text">
+                Keep track of income and expenses. Add and remove items and save to local storage.
+              </p>
+              <a href="http://muneeb-expense.surge.sh/" class="btn btn-warning">See Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" >
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/menu.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Restaurant Menu</h5>
+              <p class="card-text">
+                A list of food and beverages offered to customers and the prices.
+              </p>
+              <a href="http://muneeb-menu.surge.sh/" class="btn btn-warning">See Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/grocer.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Grocer App</h5>
+              <p class="card-text">
+                Add, delete, and manage the list of grocery items.
+              </p>
+              <a href="http://muneeb-grocer.surge.sh/" class="btn btn-warning">See Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/creditcard.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Credit Card Fraud Detection</h5>
+              <p class="card-text">
+                Built an Fraud detection model to prevent the future credit card frauds using AdaBoost Algorithm with the recall score of 0.89
+              </p>
+              <a href="https://github.com/ziamuneeb/Credit-Card-Fault-Detection" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/usedcars.jpeg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Used Car Price Prediction</h5>
+              <p class="card-text">
+                Built an end to end the Price prediction model for used cars using Random Forest algorithm with the accuracy of 86%.
+              </p>
+              <a href="https://github.com/ziamuneeb/Car-price-prediction" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/whale.jpg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Humpback Whale Classification</h5>
+              <p class="card-text">
+                Built an end to end the Price prediction model for used cars using Random Forest algorithm with the accuracy of 86%.
+              </p>
+              <a href="https://github.com/ziamuneeb/Image-Classifier" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+
+      
+  
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Media</h4>
+        <h1 class="m-heading">Let's be friends</h1>
+        <div class="row pt-5">
+          <div class="col-5 media_link btn" href="https://www.linkedin.com/in/muneeb-zia-001b78a0/">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href = "https://www.linkedin.com/in/muneeb-zia-001b78a0/">LinkedIn</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white"><a href = "https://github.com/ziamuneeb">Github</a></h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- Footer -->
+
+  </body>
+</html>
